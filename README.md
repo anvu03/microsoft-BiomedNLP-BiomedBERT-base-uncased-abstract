@@ -1,5 +1,10 @@
 ---
-license: "mit"
+language: en
+tags:
+- exbert
+license: mit
+widget:
+- text: "p53 is a tumor [MASK] gene."
 ---
 
 ## PubMedBERT (abstracts + full text)
@@ -20,3 +25,7 @@ If you find PubMedBERT useful in your research, please cite the following paper:
   eprint = {arXiv:2007.15779},
 }
 ```
+
+<a href="https://huggingface.co/exbert/?model=microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext&modelKind=bidirectional&sentence=Gefitinib%20is%20an%20EGFR%20tyrosine%20kinase%20inhibitor,%20which%20is%20often%20used%20for%20breast%20cancer%20and%20NSCLC%20treatment.&layer=3&heads=..0,1,2,3,4,5,6,7,8,9,10,11&threshold=0.7&tokenInd=17&tokenSide=right&maskInds=..&hideClsSep=true">
+	<img width="300px" src="https://cdn-media.huggingface.co/exbert/button.png">
+</a>
