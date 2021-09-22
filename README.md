@@ -4,7 +4,7 @@ tags:
 - exbert
 license: mit
 widget:
-- text: "p53 is a tumor [MASK] gene."
+- text: "[MASK] is a tumor suppressor gene."
 ---
 
 ## PubMedBERT (abstracts + full text)
