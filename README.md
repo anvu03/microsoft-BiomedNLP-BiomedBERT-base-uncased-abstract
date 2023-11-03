@@ -9,8 +9,12 @@ widget:
 
 ## MSR BiomedBERT (abstracts + full text)
 
-*NOTE: This model was previously named "PubMedBERT (abstracts + full text)".* <br />
-*In code using the previous name, please update to `transformers>=4.35.0` for compatibility.*
+<div style="border: 2px solid orange; border-radius:10px; padding:0px 10px; width: fit-content;">
+
+* NOTE: This model was previously named "PubMedBERT (abstracts + full text)".<br>
+* In code using the previous name, please update to `transformers>=4.22` for compatibility.
+
+</div>
 
 Pretraining large neural language models, such as BERT, has led to impressive gains on many natural language processing (NLP) tasks. However, most pretraining efforts focus on general domain corpora, such as newswire and Web. A prevailing assumption is that even domain-specific pretraining can benefit by starting from general-domain language models. [Recent work](https://arxiv.org/abs/2007.15779) shows that for domains with abundant unlabeled text, such as biomedicine, pretraining language models from scratch results in substantial gains over continual pretraining of general-domain language models.
 
