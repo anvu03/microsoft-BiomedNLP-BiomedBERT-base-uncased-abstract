@@ -11,7 +11,7 @@ widget:
 
 <div style="border: 2px solid orange; border-radius:10px; padding:0px 10px; width: fit-content;">
 
-* NOTE: This model was previously named "PubMedBERT (abstracts + full text)".<br>
+* NOTE: This model was previously named **"PubMedBERT (abstracts + full text)"**.<br>
 * In code using the previous name, please update to `transformers>=4.22` for compatibility.
 
 </div>
