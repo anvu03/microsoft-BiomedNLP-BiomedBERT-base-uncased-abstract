@@ -12,7 +12,7 @@ widget:
 <div style="border: 2px solid orange; border-radius:10px; padding:0px 10px; width: fit-content;">
 
 * This model was previously named **"PubMedBERT (abstracts + full text)"**.
-* You can either adopt the new model name "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext" or update your transformers library to version 4.22+ if you prefer to keep the old name.
+* You can either adopt the new model name "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext" or update your `transformers` library to version 4.22+ if you need to refer to the old name.
 
 </div>
 
